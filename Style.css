@@ -1,0 +1,85 @@
+.banner{
+    width: 650px;
+    height: 300px;
+    border: 5px solid rgb(255, 192, 97);
+    margin: auto;
+   
+    background-size: 100% 100%;
+    
+    animation: banner 10s infinite;
+    animation-direction:alternative;
+}
+@keyframes banner{
+    0%, 30% {
+        background-image: url(image/LogoES.png);
+    opacity: 1;
+    }
+    31%, 34%{
+        opacity: 0.9;
+    }
+    35%, 65% {
+        
+        background-image: url(image/EmikoShopping.png);
+        opacity: 1;
+    }
+    66%, 69%{
+        opacity: 0.9;
+    }
+    70%, 100% {
+        opacity: 1;
+        background-image: url(image/LogoES.png);
+    
+    }
+}
+body{
+    background-color: FBF0C8;
+    font-family:sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 24px;
+    height: 40px;
+  }
+  h2{
+    text-align: center;
+    font-size: 24px;
+    height: 40px;
+  }
+ .page-content{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     border: 1px solid rgb(46, 9, 32);
+     text-align: center;
+ }
+ .product-container {
+     margin: 15px;
+padding: 2px 16px;
+ }
+ .product-container img{
+     width: 300px;
+     
+ }
+ .product-container:hover{
+box-shadow: 0 8px 16px 0 rgb(116, 146, 245);
+ }
+ .product-container img{
+     width: 300px;
+ }
+
+ .r{
+    margin: 15px;
+padding: 2px 60px;
+     text-align: justify;
+        
+     font-size: 20px;
+    }
+
+    .contacto{
+        margin: 15px;
+    padding: 2px 400px;
+         text-align: justify;
+            
+         font-size: 20px;
+        }
+   
