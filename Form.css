@@ -19,10 +19,10 @@ body{
 .contact span{
     color: rgb(87, 39, 92);
 }
-.c-con{
+.c-wrapper{
     box-shadow: 0 0 20px 0 rgb(36, 54, 71, .3);
 }
-.c-con> * {
+.c-wrapper> * {
     padding: 1em;
 }
 .c-form{
@@ -81,20 +81,21 @@ outline: 0;
     padding: .3em;
 }
 
+/*Large Screen....Pantalla grande*/
 @media(min-widht: 700px){
     body{
-        padding 0 4rem;
+        padding: 0 4rem;
     }
-    .c-con {
+    .c-wrapper {
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
-    .c-con>*{
-padding: 2em;
+    .c-wrapper > * {
+    padding: 2em;
     }
     .c-info h4,
     .c-info ul,
-    .c-info p{
+    .c-info p {
         padding: 1em;
         text-align: left;
     }

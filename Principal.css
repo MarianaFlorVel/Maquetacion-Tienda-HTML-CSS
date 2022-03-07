@@ -11,7 +11,7 @@
 }
 @keyframes banner{
     0%, 30% {
-        background-image: url(image/LogoES.png);
+        background-image: url(Image/LogoES.png);
     opacity: 1;
     }
     31%, 34%{
@@ -19,7 +19,7 @@
     }
     35%, 65% {
         
-        background-image: url(image/EmikoShopping.png);
+        background-image: url(Image/EmikoShopping.png);
         opacity: 1;
     }
     66%, 69%{
@@ -27,10 +27,12 @@
     }
     70%, 100% {
         opacity: 1;
-        background-image: url(image/LogoES.png);
+        background-image: url(Image/LogoES.png);
     
     }
 }
+
+/*Carrusel muestra de productos*/
 body{
     background-color: FBF0C8;
     font-family:sans-serif;
@@ -52,7 +54,7 @@ body{
   ul.slider{
     position: relative;
     width: 450px;
-    height: 300px;
+    height: 450px;
   }
   
   ul.slider li{
@@ -68,7 +70,7 @@ body{
   
   ul.slider li img{
     width: 100%;
-    height: 300px;
+    height: 450px;
     object-fit: cover;
   }
   
@@ -101,10 +103,13 @@ body{
     font-size: 20px;
     border-radius: 100%;
   }
+  
+
+  /*Interés*/
   .interes{
     text-align: center;
     font-size: 24px;
-    height: 40px;
+    height: 70px;
   }
  .page-content{
      display: flex;

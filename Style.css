@@ -69,9 +69,10 @@ box-shadow: 0 8px 16px 0 rgb(116, 146, 245);
 
  .r{
     margin: 15px;
-padding: 2px 60px;
      text-align: justify;
         
+     padding-left: 60px;
+     padding-right: 60px;
      font-size: 20px;
     }
 
