@@ -11,7 +11,7 @@
 }
 @keyframes banner{
     0%, 30% {
-        background-image: url(image/LogoES.png);
+        background-image: url(Image/LogoES.png);
     opacity: 1;
     }
     31%, 34%{
@@ -19,7 +19,7 @@
     }
     35%, 65% {
         
-        background-image: url(image/EmikoShopping.png);
+        background-image: url(Image/EmikoShopping.png);
         opacity: 1;
     }
     66%, 69%{
@@ -27,7 +27,7 @@
     }
     70%, 100% {
         opacity: 1;
-        background-image: url(image/LogoES.png);
+        background-image: url(Image/LogoES.png);
     
     }
 }
